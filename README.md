@@ -8,7 +8,9 @@ To use tf_grouping type make. Also to use tf_nn_distance change makefile_dist to
 Before train, you must download shapenet datasets and make data dir and copy or move the shapenet datasets data dir.
  <a href="https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_benchmark_v0.zip" target="_blank">DataSets</a>
  
-To train model type python train.py.
+To train model type "python train.py".
+
+If you want to see the scattered point cloud, you must download visdom and type "python -m visdom.server".
 
 Here, we will be able to use the GAN model to reconstruct a damaged 3D point cloud 
 by classifying it using feature distance to find out what shape of a point cloud it is.
