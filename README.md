@@ -6,7 +6,7 @@ Also I used the autoencoder model as a generator of GAN.
 
 To use tf_grouping type make. Also to use tf_nn_distance change makefile_dist to makefile and type make.
 Before train, you must download shapenet datasets and make data dir and copy or move the shapenet datasets data dir.
- <a href="https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_benchmark_v0.zip" target="_blank">DataSets</a>
+ <a href="https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_benchmark_v0.zip" target="_blank">(Download datasets)</a>
  
 To train model type "python train.py".
 
